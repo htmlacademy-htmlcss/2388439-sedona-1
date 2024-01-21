@@ -101,18 +101,26 @@
 
             </fieldset>
 
-            <fieldset>
+            <fieldset class="filter-form-group filter-form-group-radio">
+              <legend class="filter-title">Тип жилья:</legend>
 
-              <legend>Тип жилья:</legend>
+              <ul class="filter-list filter-list-housing list-reset">
 
-              <input type="radio" name="type-of-housing" id="hotel" checked></input>
-                <label for="hotel">Гостиница</label>
+                <li class="filter-item filter-item-housing">
+                  <input class="input-housing" type="radio" name="type-of-housing" id="hotel" checked></input>
+                  <label class="label-housing" for="hotel">Гостиница</label>
+                </li>
 
-              <input type="radio" name="type-of-housing" id="motel"></input>
-               <label for="motel">Мотель</label>
+                <li class="filter-item filter-item-housing">
+                  <input class="input-housing" type="radio" name="type-of-housing" id="motel"></input>
+                  <label class="label-housing" for="motel">Мотель</label>
+                </li>
 
-              <input type="radio" name="type-of-housing" id="apartments"></input>
-                <label for="apartments">Апартаменты</label>
+                <li class="filter-item filter-item-housing">
+                  <input class="input-housing" type="radio" name="type-of-housing" id="apartments"></input>
+                  <label class="label-housing" for="apartments">Апартаменты</label>
+                </li>
+              </ul>
 
             </fieldset>
 
