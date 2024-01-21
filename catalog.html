@@ -77,18 +77,27 @@
 
           <form class="filter-form" action="https://echo.htmlacademy.ru/courses" method="get">
 
-            <fieldset>
+            <fieldset class="filter-form-group filter-form-group-check">
+              <legend class="filter-title">Инфраструктура:</legend>
 
-              <legend>Инфраструктура:</legend>
+              <ul class="filter-list filter-list-infra list-reset">
 
-              <input type="checkbox" checked id="pool"></input>
-                <label for="pool">Бассейн</label>
+                <li class="filter-item filter-item-infra">
+                  <input class="input-infra" type="checkbox" checked id="pool"></input>
+                  <label class="label-infra" for="pool">Бассейн</label>
+                </li>
 
-              <input type="checkbox" checked id="parking"></input>
-                <label for="parking">Парковка</label>
+                <li class="filter-item filter-item-infra">
+                  <input class="input-infra" type="checkbox" checked id="parking"></input>
+                  <label for="parking">Парковка</label>
+                </li>
 
-              <input type="checkbox" id="wi-fi"></input>
-                <label for="wi-fi">Wi-Fi</label>
+                <li class="filter-item filter-item-infra">
+                  <input class="input-infra" type="checkbox" id="wi-fi"></input>
+                  <label class="label-infra" for="wi-fi">Wi-Fi</label>
+                </li>
+
+              </ul>
 
             </fieldset>
 
