@@ -21,10 +21,26 @@ body{
     color: #333333;
 }
 
+.visually-hidden{
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
 ul{
     list-style-type: none;
 }
 
+a{
+    text-decoration: none;
+}
 .navigation-list{
     font-weight: 700;
     font-size: 20px;
@@ -32,7 +48,6 @@ ul{
 }
 
 .navigation-link{
-    text-decoration: none;
     color: #000000;
 }
 
@@ -75,8 +90,49 @@ ul{
     color: #ffffff;
 }
 
-.hero{
-    background-color: #e1eef6;
-    background-image: url(../images/background-header.png);
+
+
+.filter{
+    background-color:#deecf5;
+    background-image: url(../images/background-filter.png);
     background-repeat: no-repeat;
+    color: #ffffff;
+}
+
+.main-inner-title{
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 78px;
+}
+
+.bread-crumbs-link-hotels{
+    font-size: 16px;
+    line-height: 21px;
+    color: #ffffff;
+}
+
+.bread-crumbs-link-page{
+    background-image: url(../images/icon-bread-crumbs.svg);
+    display:block;
+    width: 12px;
+    height: 12px;
+}
+
+.filter-title{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.label-inf,
+.label-housing
+{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+}
+
+.button{
+    font-weight: 700;
+    color: #ffffff;
 }

@@ -33,12 +33,12 @@
         <ul class="user-list">
 
           <li class="user-item">
-            <a class="user-link" href="#">
+            <a class="user-link user-link-search" href="#">
               <span class="visually-hidden">Поиск по сайту</span>
             </a>
           </li>
           <li class="user-item">
-            <a class="user-link" href="#">
+            <a class="user-link user-link-favorites" href="#">
               <span class="visually-hidden">В избранном</span>
               <span class="user-favorites-num">12</span>
             </a>
@@ -63,11 +63,14 @@
 
             <ul class="bread-crumbs-list">
 
-              <li class="bread-crumbs-item bread-crumbs-page">
-                <a class="bread-crumbs-link bread-crumbs-link-page" href="index.html">На главную</a>
+              <li class="bread-crumbs-item">
+                <a class="bread-crumbs-link" href="index.html">
+                  <span class="bread-crumbs-link-page"></span>
+                  <span class="visually-hidden">На главную</span>
+                </a>
               </li>
 
-              <li class="bread-crumbs-item bread-crumbs-link-hotels">
+              <li class="bread-crumbs-item">
                 <a class="bread-crumbs-link bread-crumbs-link-hotels" href="catalog.html" aria-current="page">Гостиницы</a>
               </li>
 
@@ -86,17 +89,17 @@
 
                 <li class="filter-item filter-item-inf">
                   <input class="input-inf" type="checkbox" checked id="pool">
-                  <label class="label-inf" for="pool">Бассейн</label>
+                  <label class="label-inf label-pool" for="pool">Бассейн</label>
                 </li>
 
                 <li class="filter-item filter-item-inf">
                   <input class="input-inf" type="checkbox" checked id="parking">
-                  <label for="parking">Парковка</label>
+                  <label for="label-inf label-parking">Парковка</label>
                 </li>
 
                 <li class="filter-item filter-item-inf">
                   <input class="input-inf" type="checkbox" id="wi-fi">
-                  <label class="label-inf" for="wi-fi">Wi-Fi</label>
+                  <label class="label-inf label-wi-fi" for="wi-fi">Wi-Fi</label>
                 </li>
 
               </ul>
@@ -147,11 +150,7 @@
 
       <section class="search-results">
 
-          <h2 class="search-results-title">
-            Найдено гостиниц:
-            <span>38</span>
-          </h2>
-
+          <h2 class="main-page-title search-results-title">Найдено гостиниц: 38</h2>
 
         <select class="search-results-select" aria-label="Сортировка">
           <option class="search-results-inexpensive" value="inexpensive" selected>Сначала дешёвые</option>
