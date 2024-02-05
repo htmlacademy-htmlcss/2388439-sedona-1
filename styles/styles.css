@@ -9,7 +9,7 @@
 @font-face{
     font-family:"PT sans";
     font-style: normal;
-    font-weight: 400;
+    font-weight: 700;
     src: url("../fonts/ptsans-700.woff2") format("woff2");
     font-display: swap;
 }
@@ -23,4 +23,60 @@ body{
 
 ul{
     list-style-type: none;
+}
+
+.navigation-list{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.navigation-link{
+    text-decoration: none;
+    color: #000000;
+}
+
+.main-page-title{
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+    color: #000000;
+}
+
+.advantages-item-title,
+.services-item-title
+{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+}
+
+.description-text{
+    font-size: 22px;
+    line-height: 26px;
+}
+
+.main-page-text{
+    font-size: 18px;
+    line-height: 21px;
+}
+
+.advantages-item-title-content{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    color: #ffffff;
+}
+
+.advantages-item-text-content{
+    font-size: 18px;
+    line-height: 21px;
+    color: #ffffff;
+}
+
+.hero{
+    background-color: #e1eef6;
+    background-image: url(../images/background-header.png);
+    background-repeat: no-repeat;
 }
