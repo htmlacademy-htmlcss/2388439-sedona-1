@@ -20,3 +20,7 @@ body{
     font-style: normal;
     color: #333333;
 }
+
+ul{
+    list-style-type: none;
+}
