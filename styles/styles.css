@@ -97,6 +97,7 @@ a{
   background-repeat: no-repeat;
   width: 1200px;
   height: 485px;
+
 }
 
 .navigation-list{
@@ -242,14 +243,45 @@ a{
   height: 52px;
 }
 
+.social-link-vk{
+  display: inline-block;
+  width:24px;
+  height:14px;
+  background-image: url(../images/social/icon-socal-vk.svg);
+}
+
+.social-link-tg{
+  display: inline-block;
+  width:18px;
+  height:15px;
+  background-image: url(../images/social/icon-socal-telegram.svg);
+}
+
+.social-link-youtube{
+  display: inline-block;
+  width:22px;
+  height:17px;
+  background-image: url(../images/social/icon-socal-youtube.svg);
+}
+
 .phone{
   color: #000000;
   font-size: 40px;
   line-height: 40px;
 }
 
+.developer{
+  display: inline-block;
+  width:115px;
+  height:33px;
+  background-image: url(../images/developer.svg);
+}
+
+
+
+
 .filter{
-  background-color:#deecf5;
+  background-color:#c2e3f7;
   background-image: url(../images/background-filter.png);
   background-repeat: no-repeat;
   color: #ffffff;
