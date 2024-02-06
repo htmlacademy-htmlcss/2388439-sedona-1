@@ -92,40 +92,40 @@ a{
 }
 
 .hero{
-background-color: #d7eaf1;
-background-image: url(../images/background-header.png);
-background-repeat: no-repeat;
-width: 1200px;
-height: 485px;
+  background-color: #d7eaf1;
+  background-image: url(../images/background-header.png);
+  background-repeat: no-repeat;
+  width: 1200px;
+  height: 485px;
 }
 
 .navigation-list{
-font-weight: 700;
-font-size: 20px;
-line-height: 24px;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
 }
 
 .navigation-link{
-color: #000000;
+  color: #000000;
 }
 
 .main-page-title{
-font-weight: 700;
-font-size: 30px;
-line-height: 36px;
-color: #000000;
-margin-top: 0;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  color: #000000;
+  margin-top: 0;
 }
 
 
 .advantages-item-title,
 .services-item-title
 {
-font-weight: 700;
-font-size: 24px;
-line-height: 28px;
-color: #000000;
-margin-top: 0;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  color: #000000;
+  margin-top: 0;
 }
 
 .advantages-item{
@@ -133,43 +133,22 @@ margin-top: 0;
   height: 385px;
 }
 
-.-item:first-child{
-  background-color:#ffffff;
-}
-
 .advantages-item:nth-child(3){
   background-color: rgba(131, 179, 211, 0.2);
-}
-
-.advantages-item:last-child{
-  background-color:#ffffff;
 }
 
 .advantages-item-image-content{
   display:block;
 }
 
-.services-list{
-  background-color: rgba(131, 179, 211, 0.12);
-}
-
-.services-item{
-  width: 400px;
-  height: 385px;
-}
-
-.services-item:nth-child(2){
-  background-color: #ffffff;
-}
-
 .description-text{
-font-size: 22px;
-line-height: 26px;
+  font-size: 22px;
+  line-height: 26px;
 }
 
 .main-page-text{
-font-size: 18px;
-line-height: 21px;
+  font-size: 18px;
+  line-height: 21px;
 }
 
 .advantages-item-content{
@@ -184,66 +163,100 @@ line-height: 21px;
 }
 
 .advantages-item-title-content{
-font-weight: 700;
-font-size: 24px;
-line-height: 28px;
-color: #ffffff;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  color: #ffffff;
 }
 
 .advantages-item-text-content{
-font-size: 18px;
-line-height: 21px;
-color: #ffffff;
+  font-size: 18px;
+  line-height: 21px;
+  color: #ffffff;
+}
+
+.services-item{
+  width: 400px;
+  height: 385px;
+}
+
+.services-item:first-child{
+  background-color: rgba(131, 179, 211, 0.12);
+}
+
+.services-item:nth-child(2){
+  background-color: #ffffff;
+}
+
+.services-item:last-child{
+  background-color: rgba(131, 179, 211, 0.12);
+}
+
+.subscribe{
+  width: 1200px;
+  height: 414px;
+  background-color: #82B3D3;
+  background-image: url(../images/background-subscribe.png);
 }
 
 .subscribe-title,
 .subscribe-text
 {
-color: #ffffff;
+  color: #ffffff;
+}
+
+.search-button{
+  font-size: 20px;
+  line-height: 36px;
+  border-radius: 4px;
+  background-color:#756157;
+  display: block;
+  width: 376px;
+  height: 52px;
 }
 
 .phone{
-color: #000000;
-font-size: 40px;
-line-height: 40px;
+  color: #000000;
+  font-size: 40px;
+  line-height: 40px;
 }
 
 .filter{
-background-color:#deecf5;
-background-image: url(../images/background-filter.png);
-background-repeat: no-repeat;
-color: #ffffff;
+  background-color:#deecf5;
+  background-image: url(../images/background-filter.png);
+  background-repeat: no-repeat;
+  color: #ffffff;
 }
 
 .main-inner-title{
-font-weight: 700;
-font-size: 60px;
-line-height: 78px;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 78px;
 }
 
 .bread-crumbs-link-hotels{
-font-size: 16px;
-line-height: 21px;
-color: #ffffff;
+  font-size: 16px;
+  line-height: 21px;
+  color: #ffffff;
 }
 
 .bread-crumbs-link-page{
-background-image: url(../images/icon-bread-crumbs.svg);
-display:block;
-width: 12px;
-height: 12px;
+  background-image: url(../images/icon-bread-crumbs.svg);
+  display:block;
+  width: 12px;
+  height: 12px;
 }
 
 .filter-title{
-font-weight: 700;
-font-size: 20px;
-line-height: 24px;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
 }
 
 .label-inf,
 .label-housing
 {
-font-weight: 400;
-font-size: 18px;
-line-height: 23px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 23px;
 }
