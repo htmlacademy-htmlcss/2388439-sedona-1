@@ -139,6 +139,7 @@ a{
 
 .advantages-item-image-content{
   display:block;
+
 }
 
 .description-text{
@@ -175,6 +176,31 @@ a{
   color: #ffffff;
 }
 
+.services-description,
+.search
+{
+  width: 1200px;
+  height:246px;
+}
+
+.services-item-home{
+  background-image: url(../images/icon-home.svg);
+}
+.services-item-food{
+  background-image: url(../images/icon-burger.svg);
+}
+.services-item-souvenir{
+  background-image: url(../images/icon-present.svg);
+}
+
+.services-item-home,
+.services-item-food,
+.services-item-souvenir
+{
+  background-repeat: no-repeat;
+  background-position: 50% 81px;
+}
+
 .services-item{
   width: 400px;
   height: 385px;
@@ -197,6 +223,7 @@ a{
   height: 414px;
   background-color: #82B3D3;
   background-image: url(../images/background-subscribe.png);
+  background-size: cover;
 }
 
 .subscribe-title,
