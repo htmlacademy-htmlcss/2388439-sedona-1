@@ -200,3 +200,24 @@ body{
   background-color: #7DB54F;
   border: none;
 }
+
+.pagination-link{
+  background-color: #82B3D3;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 36px;
+  color: #ffffff;
+}
+
+.pagination-current{
+  color:#000000;
+  background-color:rgba(242, 242, 242, 1);
+}
+.pagination-points{
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 26px;
+  color:#000000;
+  background:none;
+}
