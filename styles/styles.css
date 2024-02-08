@@ -72,6 +72,16 @@ body{
   background-color: #82B3D3;
 }
 
+.advantages-list :nth-of-type(3){
+  background-color: rgba(131, 179, 211, 0.2);
+}
+
+.advantages-list :nth-of-type(2),
+.advantages-list :nth-of-type(4)
+{
+  background-color: rgba(131, 179, 211, 0.12);
+}
+
 .advantages-item-title-content,
 .advantages-item-text-content
 {
