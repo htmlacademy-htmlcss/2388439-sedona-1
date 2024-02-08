@@ -116,3 +116,17 @@ body{
 .services-item:last-child{
   background-color: rgba(131, 179, 211, 0.12);
 }
+
+.subscribe{
+  background-color: #82B3D3;
+  background-image: url(../images/background-subscribe.png);
+  width: 1200px;
+  height: 415px;
+  background-size: cover;
+}
+
+.subscribe-title,
+.subscribe-text
+{
+  color:#ffffff;
+}
