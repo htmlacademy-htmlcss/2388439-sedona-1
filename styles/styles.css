@@ -153,6 +153,10 @@ body{
   color:#ffffff;
 }
 
+.filter-form-group{
+  border: none;
+}
+
 .main-inner-title{
   font-weight: 700;
   font-size: 60px;
@@ -201,23 +205,40 @@ body{
   border: none;
 }
 
-.pagination-link{
+.pagination-item{
+  width: 60px;
+  height: 60px;
   background-color: #82B3D3;
+}
+
+.pagination-item-current{
+  background-color:rgba(242, 242, 242, 1);
+}
+
+.pagination-link{
+  color: #ffffff;
   text-decoration: none;
   font-weight: 700;
   font-size: 20px;
   line-height: 36px;
-  color: #ffffff;
 }
 
 .pagination-current{
   color:#000000;
-  background-color:rgba(242, 242, 242, 1);
 }
+
+.pagination-item-points{
+  background:none;
+}
+
+
 .pagination-points{
   font-weight: 400;
   font-size: 22px;
   line-height: 26px;
   color:#000000;
-  background:none;
+}
+
+.subscribe-inner{
+  background: none;
 }
