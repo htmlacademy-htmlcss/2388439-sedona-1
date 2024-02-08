@@ -142,3 +142,41 @@ body{
   color: #000000;
   text-decoration: none;
 }
+
+/*------------------------- Catalog -------------------------*/
+
+.filter{
+  background-color: #7fbaff;
+  background-image: url(../images/background-filter.png);
+  background-size: cover;
+  color:#ffffff;
+}
+
+.main-inner-title{
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 78px;
+}
+
+.bread-crumbs-link{
+  text-decoration: none;
+  color:#ffffff;
+  font-size: 16px;
+  line-height: 21px;
+}
+
+.input-price{
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.label-price{
+  line-height: 24px;
+  color:#000000;
+}
+
+.button-reset{
+  border:none;
+  background: none;
+}
