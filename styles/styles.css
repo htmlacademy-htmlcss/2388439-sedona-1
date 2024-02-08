@@ -44,7 +44,8 @@ body{
 }
 
 .user-button,
-.search-button
+.search-button,
+.product-card-more
 {
   background-color: #756157;
 }
@@ -179,4 +180,23 @@ body{
 .button-reset{
   border:none;
   background: none;
+}
+
+.search-results-title{
+  font-size: 30px;
+  line-height: 36px;
+  color:#000000;
+}
+
+.product-card-link{
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  color:#000000;
+  text-decoration: none;
+}
+
+.product-card-in-favorites{
+  background-color: #7DB54F;
+  border: none;
 }
