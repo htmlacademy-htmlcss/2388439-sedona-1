@@ -135,3 +135,10 @@ body{
   font-size: 18px;
   line-height: 24px;
 }
+
+.phone{
+  font-size: 40px;
+  line-height: 40px;
+  color: #000000;
+  text-decoration: none;
+}
