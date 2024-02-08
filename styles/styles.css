@@ -68,6 +68,16 @@ body{
   text-transform: uppercase;
 }
 
+.advantages-item-image-content{
+  display: block;
+}
+
+.advantages-item-title-content,
+.advantages-item-text-content
+{
+  color:#ffffff;
+}
+
 .advantages-item-content{
   background-color: #82B3D3;
 }
@@ -80,10 +90,4 @@ body{
 .advantages-list :nth-of-type(4)
 {
   background-color: rgba(131, 179, 211, 0.12);
-}
-
-.advantages-item-title-content,
-.advantages-item-text-content
-{
-  color:#ffffff;
 }
