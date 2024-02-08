@@ -19,6 +19,7 @@ body{
   font-size: 18px;
   line-height: 21px;
   color: #333333;
+  background-color: #ffffff;
 }
 
 .navigation-list{
@@ -39,6 +40,18 @@ body{
   text-transform: uppercase;
   color: #ffffff;
   text-decoration: none;
+
+}
+
+.user-button,
+.search-button
+{
+  background-color: #756157;
+}
+
+.button-light{
+  background-color: #82B3D3;
+  border: none;
 }
 
 .hero{
