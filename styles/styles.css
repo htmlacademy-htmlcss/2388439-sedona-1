@@ -40,3 +40,11 @@ body{
   color: #ffffff;
   text-decoration: none;
 }
+
+.hero{
+  background-color: #d9eaf2;
+  background-image: url(../images/background-header.png);
+  background-repeat: no-repeat;
+  width:1200px;
+  height:485px;
+}
