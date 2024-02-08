@@ -91,3 +91,15 @@ body{
 {
   background-color: rgba(131, 179, 211, 0.12);
 }
+
+.services-item:first-child{
+  background-color: rgba(131, 179, 211, 0.12);
+}
+
+.services-item:nth-child(2){
+  background-color: #ffffff;
+}
+
+.services-item:last-child{
+  background-color: rgba(131, 179, 211, 0.12);
+}
