@@ -19,6 +19,10 @@ body{
   font-size: 18px;
   line-height: 21px;
   color: #333333;
+  background-color: #f2f2f2;
+}
+
+.wrapper{
   background-color: #ffffff;
 }
 
@@ -34,12 +38,15 @@ body{
 }
 
 .button{
+  font-family: inherit;
   font-weight: 700;
   font-size: 16px;
   line-height: 20px;
   text-transform: uppercase;
+  background-color: #82B3D3;
   color: #ffffff;
   text-decoration: none;
+  border: none;
 
 }
 
@@ -50,9 +57,8 @@ body{
   background-color: #756157;
 }
 
-.button-light{
+.button-second{
   background-color: #82B3D3;
-  border: none;
 }
 
 .hero{
@@ -60,7 +66,6 @@ body{
   background-image: url(../images/background-header.png);
   background-repeat: no-repeat;
   width:1200px;
-  height:485px;
 }
 
 .main-page-title{
@@ -122,7 +127,7 @@ body{
   background-color: #82B3D3;
   background-image: url(../images/background-subscribe.png);
   width: 1200px;
-  height: 415px;
+  min-height: 415px;
   background-size: cover;
 }
 
@@ -202,7 +207,6 @@ body{
 
 .product-card-in-favorites{
   background-color: #7DB54F;
-  border: none;
 }
 
 .pagination-item{
