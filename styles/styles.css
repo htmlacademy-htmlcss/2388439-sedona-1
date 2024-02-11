@@ -48,13 +48,19 @@ body{
   line-height: 24px;
 }
 
+.logo{
+  outline: 1px solid red;
+}
+
 .navigation-link{
   color: #000000;
   text-decoration: none;
+  outline: 1px solid red;
 }
 
 .user-list{
   list-style: none;
+  outline: 1px solid red;
 }
 
 .button{
