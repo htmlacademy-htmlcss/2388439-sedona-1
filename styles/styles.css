@@ -59,11 +59,12 @@ margin:0 auto;
 }
 
 .navigation-list{
-  list-style: none;
-  padding-left: 0;
   font-weight: 700;
   font-size: 20px;
   line-height: 24px;
+
+  list-style: none;
+  padding: 0;
 
   display: flex;
   flex-wrap: wrap;
@@ -157,11 +158,32 @@ margin:0 auto;
   background-color: #82B3D3;
 }
 
+/* --------------------------------------------------------------------- */
+
 .hero{
   background-color: #d9eaf2;
   background-image: url(../images/background-header.png);
   background-repeat: no-repeat;
   width:1200px;
+  height: 485px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+
+}
+
+.welcome{
+  display: inline-block;
+  margin: auto;
+}
+
+.divider{
+  background-image: url(../images/divider.svg);
+  width: 1200px;
+  height: 57px;
+
 }
 
 .main-page-title{
