@@ -38,7 +38,7 @@ body{
 }
 
 .wrapper{
-
+box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.2);
 background-color: #ffffff;
 width:1200px;
 margin:0 auto;
@@ -170,8 +170,6 @@ margin:0 auto;
   display: flex;
   flex-direction: column;
   justify-content: center;
-
-
 }
 
 .welcome{
@@ -186,11 +184,26 @@ margin:0 auto;
 
 }
 
+.advantages{
+  display: flex;
+  flex-direction: column;
+}
+
+.advantages-description{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 261px;
+
+}
+
 .main-page-title{
   font-weight: 700;
   font-size: 30px;
   line-height: 36px;
   text-transform: uppercase;
+  text-align: center;
 }
 
 .description-text{
@@ -203,10 +216,51 @@ margin:0 auto;
   font-size: 24px;
   line-height: 28px;
   text-transform: uppercase;
+  text-align: center;
+  margin: 0;
+}
+
+.main-page-text{
+  margin: 0;
+}
+
+.advantages-wrapper{
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  flex-grow: 1;
+  justify-content: center;
+  align-items: center;
+  row-gap: 81px;
+}
+
+.advantages-item{
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  height: 385px;
+  justify-content: center;
+  align-items: center;
+  row-gap: 81px;
+
+}
+
+.advantages-item-text{
+  text-align: center;
+  margin: 0;
+}
+
+.advantages-list{
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0;
+  margin: 0;
 }
 
 .advantages-item-image-content{
-  display: block;
+  display: inline-block;
+  vertical-align: baseline;
 }
 
 .advantages-item-title-content,
@@ -217,6 +271,10 @@ margin:0 auto;
 
 .advantages-item-content{
   background-color: #82B3D3;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  height: 385px;
 }
 
 .advantages-list :nth-of-type(3){
@@ -227,6 +285,63 @@ margin:0 auto;
 .advantages-list :nth-of-type(4)
 {
   background-color: rgba(131, 179, 211, 0.12);
+}
+
+/* ----------------------------------------------------------- */
+
+.services{
+  display: flex;
+  flex-direction: column;
+}
+
+.services-description{
+  height: 246px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.services-list{
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  padding: 0;
+}
+
+.services-item{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  width: 400px;
+  height:385px;
+  row-gap: 30px;
+
+}
+
+.services-item-home{
+  background-image: url(../images/icon-home.svg);
+  background-repeat: no-repeat;
+  background-position: top 81px left 162px;
+}
+
+.services-item-food{
+  background-image: url(../images/icon-burger.svg);
+  background-repeat: no-repeat;
+  background-position: top 81px left 162px;
+}
+
+.services-item-souvenir{
+  background-image: url(../images/icon-present.svg);
+  background-repeat: no-repeat;
+  background-position: top 81px left 162px;
+}
+
+.services-item-text{
+  text-align: center;
+  margin-bottom: 81px;
 }
 
 .services-item:first-child{
@@ -241,12 +356,45 @@ margin:0 auto;
   background-color: rgba(131, 179, 211, 0.12);
 }
 
+/* ---------------------------------------------------------------------- */
+
+.search{
+  height: 406px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.search-description-text{
+  text-align: center;
+}
+
+.search-button{
+  font-size: 20px;
+  line-height: 36px;
+  display: flex;
+  width: 376px;
+  height: 52px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+}
+
 .subscribe{
   background-color: #82B3D3;
   background-image: url(../images/background-subscribe.png);
   width: 1200px;
   min-height: 415px;
   background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.subscribe-form{
+  display: flex;
 }
 
 .subscribe-title,
@@ -258,8 +406,56 @@ margin:0 auto;
 .subscribe-input{
   font-size: 18px;
   line-height: 24px;
+  border: none;
+  width: 452px;
+  height: 52px;
+  padding-left: 20px;
 }
 
+.subscribe-button{
+  width: 232px;
+}
+
+.main-footer{
+  display: flex;
+}
+
+.social{
+  display: inherit;
+}
+
+.social-list{
+  list-style: none;
+  padding: 0;
+  display: flex;
+}
+
+.social-link-vk{
+  display: inline-block;
+  width: 48px;
+  height: 40px;
+  background-image: url(../images/social/icon-socal-vk.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.social-link-tg{
+  display: inline-block;
+  width: 48px;
+  height: 40px;
+  background-image: url(../images/social/icon-socal-telegram.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.social-link-youtube{
+  display: inline-block;
+  width: 48px;
+  height: 40px;
+  background-image: url(../images/social/icon-socal-youtube.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
 .phone{
   font-size: 40px;
   line-height: 40px;
