@@ -27,7 +27,13 @@
   overflow: hidden;
 }
 
+html{
+  height: 100%;
+}
+
 body{
+  margin: 0;
+  display: flex;
   font-family: "PT sans", sans-serif;
   font-size: 18px;
   line-height: 21px;
@@ -41,7 +47,7 @@ body{
 box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.2);
 background-color: #ffffff;
 width:1200px;
-margin:0 auto;
+margin: auto;
 }
 
 .main-header{
@@ -418,6 +424,11 @@ margin:0 auto;
 
 .main-footer{
   display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 120px;
+  align-items: center;
+  padding:0 70px 0 70px;
 }
 
 .social{
@@ -461,6 +472,13 @@ margin:0 auto;
   line-height: 40px;
   color: #000000;
   text-decoration: none;
+}
+
+.developer{
+  display: inline-block;
+  background-image: url(../images/developer.svg);
+  width: 115px;
+  height: 33px;
 }
 
 /*------------------------- Catalog -------------------------*/
