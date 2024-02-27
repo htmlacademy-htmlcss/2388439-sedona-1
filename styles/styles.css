@@ -60,7 +60,7 @@ body{
 
 .main-navigation{
   display: flex;
-  flex-basis: 1200px;
+  width: 1200px;
   height: 64px;
 }
 
@@ -586,6 +586,23 @@ body{
   position: relative;
 }
 
+.filter-form-group-check{
+  margin-right: 70px;
+}
+
+.filter-form-group-radio{
+  margin-right: 140px;
+}
+
+.filter-form-group-price{
+  margin-right: 70px;
+}
+
+.button-send{
+  padding: 8px 50px;
+  border-radius: 4px;
+}
+
 .filter-title{
   padding-bottom: 32px;
 }
@@ -638,10 +655,81 @@ body{
   background: none;
 }
 
+.search-results{
+  display: flex;
+  flex-direction: column;
+  /* padding: 50px 70px 60px; */
+}
+
 .search-results-title{
   font-size: 30px;
   line-height: 36px;
   color:#000000;
+}
+
+.catalog-sorting{
+  display: flex;
+  padding: 50px 70px 20px;
+  height: 49px;
+}
+
+.search-results-title{
+  padding-right: 200px;
+}
+
+.search-results-select{
+  width: 292px;
+  margin-right: 70px;
+}
+
+.display-view-list{
+  display: flex;
+  width: 160px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  justify-content: space-between;
+}
+
+.button-view{
+  border-radius: 4px;
+  width: 48px;
+  height: 48px;
+  background-repeat: no-repeat;
+
+  display: inline-block;
+  background-position: center;
+}
+
+.button-view-card{
+  background-image: url(../images/icon-view-card.svg);
+  border: 2px solid #000000;
+}
+
+.button-view-preview{
+  background-image: url(../images/icon-view-preview.svg);
+  border: 2px solid #E5E5E5;
+}
+
+.button-view-list{
+  background-image: url(../images/icon-view-list.svg);
+  border: 2px solid #E5E5E5;
+}
+
+.catalog-list{
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+  padding-left: 70px;
+  list-style: none;
+  justify-content: flex-start;
+  gap: 14px;
+}
+
+.catalog-item{
+  border: 2px solid #E5E5E5;
+  border-radius: 4px;
+  padding: 20px;
 }
 
 .product-card-link{
@@ -654,6 +742,10 @@ body{
 
 .product-card-in-favorites{
   background-color: #7DB54F;
+}
+
+.pagination-list{
+  display: flex;
 }
 
 .pagination-item{
@@ -692,4 +784,5 @@ body{
 
 .subscribe-inner{
   background: none;
+
 }
