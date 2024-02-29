@@ -45,6 +45,10 @@ body{
   background-color: #f2f2f2;
 }
 
+.main-container{
+  flex-grow: 1;
+}
+
 .wrapper{
   width:1200px;
   margin: auto;
