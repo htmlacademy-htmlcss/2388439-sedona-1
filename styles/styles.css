@@ -693,8 +693,8 @@ body{
 
 .catalog-sorting{
   display: flex;
-  padding: 50px 70px 20px;
-  height: 49px;
+  width: 1060px;
+  margin: 0 auto;
 }
 
 .search-results-title{
@@ -746,16 +746,24 @@ body{
   display: flex;
   flex-wrap: wrap;
   margin: 0;
-  padding-left: 70px;
+  width: 1060px;
   list-style: none;
   justify-content: flex-start;
-  gap: 14px;
+
 }
 
 .catalog-item{
-  border: 2px solid #E5E5E5;
+  border: 1px solid #E5E5E5;
   border-radius: 4px;
   padding: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+
+
+}
+
+.catalog-item:nth-child(3n){
+  margin-right: 0;
 }
 
 .product-card-link{
@@ -772,7 +780,8 @@ body{
 
 .pagination-list{
   list-style: none;
-  padding-left: 70px;
+  padding: 0;
+  margin: 40px 70px;
   display: flex;
   gap: 8px;
 }
