@@ -57,19 +57,20 @@ body{
 
 .main-header{
   display: flex;
-  padding: 0 70px
+  min-height: 64px;
+  padding: 0 70px;
+  position: relative;
 }
 
 .main-navigation{
   display: flex;
   width: 1200px;
-  height: 64px;
+
 }
 
 .logo{
   display: inline-block;
-  margin-right: 46px;
-  z-index: 1;
+  position: absolute;
 }
 
 .navigation-list{
@@ -78,13 +79,16 @@ body{
   line-height: 24px;
 
   list-style: none;
+
+  margin-left: 238px;
   padding: 0;
 
   display: flex;
   flex-wrap: wrap;
+  flex-grow: 1;
   align-content: center;
   gap: 30px;
- flex-grow: 1;
+
 }
 
 .navigation-link{
@@ -96,18 +100,23 @@ body{
   list-style: none;
   padding-left: 0;
   margin: 0;
+  width: 268px;
+
   display: flex;
   flex-wrap: wrap;
   align-content: center;
-  gap: 20px;
+
+  position: relative;
 }
 
 .user-link-search{
   width: 20px;
   height: 20px;
   display: block;
+  padding: 12px;
   background-image: url(../images/icon-search.svg);
   background-repeat: no-repeat;
+  background-position: center;
 
 }
 
@@ -116,23 +125,24 @@ body{
   width: 20px;
   height: 20px;
   display: inline-block;
+  padding: 12px;
   background-image: url(../images/icon-in-favorites.svg);
   background-repeat: no-repeat;
-
+  background-position: center;
   text-decoration: none;
 
 }
 
 .user-favorites-num{
-  display:flex;
-  justify-content: center;
-  align-items: center;
+  display: grid;
+  place-items: center;
+
   width: 20px;
   height: 20px;
 
   position: absolute;
-  left: 10px;
-  bottom: 10px;
+  left: 20px;
+  bottom: 20px;
 
   background-color: #7DB54F;
   border-radius: 50%;
@@ -141,10 +151,23 @@ body{
   color: #ffffff;
 }
 
+.user-item-button{
+  position: absolute;
+  width: 160px;
+  height: 36px;
+  top: 14px;
+  left: 108px;
+
+}
+
+
 .user-button{
-  display: inline-block;
   border-radius:4px;
-  padding: 8px 34px;
+  position: absolute;
+  width: 160px;
+  height: 36px;
+  display: grid;
+  place-items: center;
 }
 
 .button{
@@ -157,6 +180,7 @@ body{
   color: #ffffff;
   text-decoration: none;
   border: none;
+  cursor: pointer;
 
 }
 
