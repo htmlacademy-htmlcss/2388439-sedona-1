@@ -554,8 +554,12 @@ body{
 
   display: flex;
   flex-direction: column;
+}
 
-  gap: 40px;
+.catalog-title{
+  font-size: 64px;
+  line-height: 78px;
+  margin: 0;
 }
 
 .main-inner-title{
@@ -568,13 +572,13 @@ body{
 .bread-crumbs{
   display: flex;
   flex-direction: column;
-
 }
 
 .bread-crumbs-list{
   display: flex;
   gap: 28px;
   margin: 0;
+  margin-bottom: 40px;
 }
 
 .bread-crumbs-link{
@@ -703,8 +707,9 @@ body{
 
 .catalog-sorting{
   display: flex;
-  width: 1060px;
-  margin: 0 auto;
+  align-items: center;
+  padding: 50px 70px 40px 70px;
+
 }
 
 .search-results-title{
@@ -712,7 +717,8 @@ body{
 }
 
 .search-results-select{
-  width: 292px;
+  min-width: 292px;
+  padding: 14px 20px;
   margin-right: 70px;
   font-size: 18px;
   line-height: 21px;
@@ -727,13 +733,17 @@ body{
   justify-content: space-between;
 }
 
+.display-view-list li{
+  width: 52px;
+  height: 52px;
+}
+
 .button-view{
   border-radius: 4px;
-  width: 48px;
-  height: 48px;
+  padding: 24px;
   background-repeat: no-repeat;
 
-  display: inline-block;
+  display: block;
   background-position: center;
 }
 
