@@ -65,7 +65,7 @@ body{
 }
 
 .logo{
-  display: inline-block;
+  display: block;
   position: absolute;
 }
 
@@ -194,7 +194,7 @@ body{
 }
 
 .welcome{
-  display: inline-block;
+  display: block;
   margin: auto;
 }
 
@@ -293,7 +293,7 @@ body{
 }
 
 .advantages-item-image-content{
-  display: inline-block;
+  display: block;
   vertical-align: baseline;
 }
 
@@ -414,7 +414,7 @@ body{
 }
 
 .search-button{
-  display: inline-block;
+  display: block;
   border-radius: 4px;
 
   font-size: 20px;
@@ -496,7 +496,7 @@ body{
 }
 
 .social{
-  display: inherit;
+  display: flex;
 }
 
 .social-list{
@@ -504,10 +504,11 @@ body{
   padding: 0;
   margin: 0;
   display: flex;
+  flex-wrap: wrap;
 }
 
 .social-link-vk{
-  display: inline-block;
+  display: block;
   width: 48px;
   height: 40px;
   background-image: url(../images/social/icon-socal-vk.svg);
@@ -516,7 +517,7 @@ body{
 }
 
 .social-link-tg{
-  display: inline-block;
+  display: block;
   width: 48px;
   height: 40px;
   background-image: url(../images/social/icon-socal-telegram.svg);
@@ -525,7 +526,7 @@ body{
 }
 
 .social-link-youtube{
-  display: inline-block;
+  display: block;
   width: 48px;
   height: 40px;
   background-image: url(../images/social/icon-socal-youtube.svg);
@@ -540,7 +541,7 @@ body{
 }
 
 .developer{
-  display: inline-block;
+  display: block;
   background-image: url(../images/developer.svg);
   width: 115px;
   height: 33px;
@@ -554,7 +555,7 @@ body{
   background-size: cover;
   color:#ffffff;
 
-  padding: 35px 70px;
+  padding: 35px 70px 70px;
 
   display: flex;
   flex-direction: column;
@@ -586,7 +587,7 @@ body{
 }
 
 .bread-crumbs-link{
-  display: inline-block;
+  display: block;
   background-image: url(../images/icon-bread-crumbs.svg);
   width: 12px;
   height: 12px;
@@ -777,9 +778,10 @@ body{
 }
 
 .catalog-item{
-  border: 2px solid #E5E5E5;
+  box-shadow: 0 0 10px 0 #E5E5E5;
+
   border-radius: 4px;
-  padding: 18px;
+  padding: 20px;
   margin-right: 20px;
   margin-bottom: 20px;
 }
@@ -800,44 +802,47 @@ body{
   background-color: #7DB54F;
 }
 
+
+/* --------------------------------- */
+
 .pagination-list{
   list-style: none;
-  padding: 0;
-  margin: 40px 70px;
+  margin: 0;
+  padding: 40px 70px;
   display: flex;
   gap: 8px;
 }
 
-.pagination-item{
-  width: 60px;
-  height: 60px;
+.pagination-link{
   background-color: #82B3D3;
   border-radius: 4px;
-
 }
 
-
-.pagination-item-current{
+.pagination-current{
   background-color:rgba(242, 242, 242, 1);
 }
 
 .pagination-link{
-  display: inline-block;
+  display: block;
+  padding: 12px;
+  min-width: 60px;
+
   color: #ffffff;
   text-decoration: none;
   font-weight: 700;
   font-size: 20px;
   line-height: 36px;
-  padding: 12px 24px;
+  box-sizing: border-box;
+  text-align: center;
+
 }
 
 .pagination-current{
   color:#000000;
 }
 
-.pagination-item-points{
+.pagination-points{
   background:none;
-
 }
 
 
@@ -852,6 +857,11 @@ body{
   background: none;
 }
 
+.subscribe-inner-title{
+  margin-bottom: 20px;
+}
+
 .subscribe-inner-text {
   text-align: center;
+  margin-bottom: 54px;
 }
