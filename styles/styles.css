@@ -52,7 +52,7 @@ body{
 
 }
 
-.main-header{
+.header{
   display: flex;
   padding: 0 70px;
   position: relative;
@@ -67,6 +67,7 @@ body{
 .logo{
   display: block;
   position: absolute;
+  z-index: 1;
 }
 
 .navigation-list{
@@ -185,12 +186,9 @@ body{
   background-color: #d9eaf2;
   background-image: url(../images/background-header.png);
   background-repeat: no-repeat;
-  width:1200px;
-  height: 485px;
 
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+  padding: 51px 70px 82px;
+  position: relative;
 }
 
 .welcome{
@@ -198,11 +196,17 @@ body{
   margin: auto;
 }
 
-.divider{
-  background-image: url(../images/divider.svg);
-  width: 1200px;
+.hero::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+
+  width: 100%;
   height: 57px;
 
+  background-image: url("../images/divider.svg");
+  background-repeat: no-repeat;
 }
 
 .advantages{
@@ -211,20 +215,12 @@ body{
 }
 
 .advantages-description{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 25px;
 
   padding: 69px 70px 90px;
 
 }
 
 .main-page{
-  display: flex;
-  flex-grow: 1;
-  flex-direction: column;
   min-height: 100%;
 }
 
@@ -234,8 +230,8 @@ body{
   line-height: 36px;
   text-transform: uppercase;
   text-align: center;
-
   margin: 0;
+  margin-bottom: 25px;
 }
 
 .description-text{
@@ -252,35 +248,10 @@ body{
   text-transform: uppercase;
   text-align: center;
   margin: 0;
+  margin-bottom: 52px;
 }
 
 .main-page-text{
-  margin: 0;
-}
-
-.advantages-wrapper{
-  display: flex;
-  flex-direction: column;
-  width: 400px;
-  flex-grow: 1;
-  padding: 100px 0;
-  justify-content: center;
-  align-items: center;
-  row-gap: 58px;
-}
-
-.advantages-item{
-  display: flex;
-  flex-direction: column;
-  width: 400px;
-  padding: 112px 0;
-  justify-content: center;
-  align-items: center;
-  row-gap: 58px;
-}
-
-.advantages-item-text{
-  text-align: center;
   margin: 0;
 }
 
@@ -292,9 +263,30 @@ body{
   margin: 0;
 }
 
-.advantages-item-image-content{
+.advantages-wrapper{
+  padding: 102px 92px;
+  text-align: center;
+}
+
+.advantages-item{
+  padding: 102px 85px;
+  max-width: 230px;
+  min-height: 181px;
+  text-align: center;
+}
+
+.advantages-item-content{
+  background-color: #82B3D3;
+  display: flex;
+}
+
+
+.advantages-item-text{
+  margin: 0;
+}
+
+.advantages-image-content{
   display: block;
-  vertical-align: baseline;
 }
 
 .advantages-item-title-content,
@@ -303,13 +295,6 @@ body{
   color:#ffffff;
 }
 
-.advantages-item-content{
-  background-color: #82B3D3;
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: column;
-  height: 385px;
-}
 
 .advantages-list :nth-of-type(3){
   background-color: rgba(131, 179, 211, 0.2);
@@ -329,51 +314,40 @@ body{
 }
 
 .services-description{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 20px;
-
   padding: 64px 70px;
 }
 
 .services-list{
   display: flex;
-  flex-direction: row;
   list-style: none;
   padding: 0;
   margin: 0;
 }
 
 .services-item{
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
   align-items: center;
-  width: 400px;
-  gap: 21px;
-  padding: 183px 0 81px 0;
+  max-width: 230px;
+  min-height: 223px;
+  padding: 81px 85px;
+  background-repeat: no-repeat;
+  background-position: top 82px center;
+}
 
-
+.services-item-title{
+  margin-top: 102px;
+  margin-bottom: 30px;
 }
 
 .services-item-home{
   background-image: url(../images/icon-home.svg);
-  background-repeat: no-repeat;
-  background-position: top 81px left 162px;
 }
 
 .services-item-food{
   background-image: url(../images/icon-burger.svg);
-  background-repeat: no-repeat;
-  background-position: top 81px left 162px;
 }
 
 .services-item-souvenir{
   background-image: url(../images/icon-present.svg);
-  background-repeat: no-repeat;
-  background-position: top 81px left 162px;
 }
 
 .services-item-text{
@@ -397,7 +371,6 @@ body{
 .search{
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
 
   padding: 96px 70px;
