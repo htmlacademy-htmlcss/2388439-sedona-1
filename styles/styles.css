@@ -369,21 +369,7 @@ body{
 /* ---------------------------------------------------------------------- */
 
 .search{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-
-  padding: 96px 70px;
-}
-
-.search-description-title{
-  margin-bottom: 20px;
-}
-
-.search-description-text{
-  text-align: center;
-  margin: 0;
-  margin-bottom: 54px;
+  padding: 93px 70px;
 }
 
 .search-button{
@@ -393,7 +379,12 @@ body{
   font-size: 20px;
   line-height: 36px;
 
+  max-width: 276px;
+  min-height: 36px;
+
   padding: 8px 50px;
+  margin: auto;
+  margin-top: 54px;
 
 }
 
@@ -402,14 +393,11 @@ body{
 .subscribe{
   background-color: #82B3D3;
   background-image: url(../images/background-subscribe.png);
-  /* width: 1200px;
-  min-height: 415px; */
   background-size: cover;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  /* gap: 54px; */
   padding: 96px 70px 104px;
 }
 
@@ -433,13 +421,14 @@ body{
   line-height: 24px;
   border: none;
   width: 452px;
-  height: 52px;
+  min-height: 52px;
   padding-left: 20px;
   background-color: #f2f2f2;
 }
 
 .subscribe-button{
-  width: 232px;
+  max-width: 232px;
+  padding: 8px 50px;
   border-radius: 0 4px 4px 0;
 }
 
@@ -751,12 +740,14 @@ body{
 }
 
 .catalog-item{
-  box-shadow: 0 0 10px 0 #E5E5E5;
+  box-shadow: 0 0 2px 0 rgba(0, 0, 0, 0.2);
+
 
   border-radius: 4px;
   padding: 20px;
   margin-right: 20px;
   margin-bottom: 20px;
+
 }
 
 .catalog-item:nth-child(3n){
@@ -783,6 +774,7 @@ body{
   margin: 0;
   padding: 40px 70px;
   display: flex;
+  flex-wrap: wrap;
   gap: 8px;
 }
 
